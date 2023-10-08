@@ -1,0 +1,17 @@
+.description_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width:720px){
+    .description_list {
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100%;
+        margin: 0;
+        margin-top: var(--spacing-medium);
+    }
+}

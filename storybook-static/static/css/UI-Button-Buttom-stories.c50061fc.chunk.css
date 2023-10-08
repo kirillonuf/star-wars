@@ -1,0 +1,71 @@
+:root {
+    --color-white: #fff;
+    --color-yellow: #ffff00;
+    --color-dark-gray: #10100e;
+    --color-blue: #6a83fb;
+    --color-violet: #ae72c2;
+
+    --font-family-main: sans-serif;
+    --font-size-header: 26px;
+    --font-bold: 600;
+
+
+    --text-shadow-yellow: 
+    1px 1px 2px red,
+    0 0 1em var(--color-yellow),
+    0 0 0.2em var(--color-black);
+  --text-shadow-yellow-hover: 
+    1px 1px 2px red, 
+    0 0 1em var(--color-yellow), 
+    0 0 0.2em var(--color-white);
+  --text-shadow-blue: 
+    1px 1px 2px red, 
+    0 0 1em var(--color-blue), 
+    0 0 0.2em var(--color-black);
+
+
+    --box-shadow-dark:
+        1px 1px 2px red,
+        0em 0 3em var(--color-blue);
+
+        --box-shadow-light:
+        1px 1px 2px red,
+        0em 0 3em var(--color-yellow);    
+    
+    --transition: .4s;    
+
+}
+.Button_btn__GJqgk {
+    background-color: var(--color-yellow);
+    color: var(--color-dark-gray);
+    box-shadow: var(--box-shadow-dark);
+    border-radius: 20px;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-header);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    min-width: 150px;
+    transition: var(--transition);
+}
+
+.Button_btn__GJqgk:disabled {
+    opacity: .4;
+    cursor: auto;
+   
+}
+
+.Button_dark__NgP4I:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.Button_light__sCSe4:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-dark-gray);
+}
+.Button_light__sCSe4 {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: var(--box-shadow-light);
+}
+
+/*# sourceMappingURL=UI-Button-Buttom-stories.c50061fc.chunk.css.map*/

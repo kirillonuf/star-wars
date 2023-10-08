@@ -1,0 +1,19 @@
+.wrapper{
+     margin: auto; 
+}
+
+.container {
+    color: var(--color-yellow);
+    font-weight: var(--font-bold);
+    font-size: var(--font-size-header);
+    text-shadow: var(--text-shadow-yellow);
+    box-shadow: var(--box-shadow-yellow);
+    border-radius: var(--spacing-large);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 70vh;
+    flex-wrap: wrap;
+    padding: 20px;
+}

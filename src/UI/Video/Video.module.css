@@ -1,0 +1,12 @@
+.video{
+    
+    max-width: 460px;
+    width: 50%;
+    text-align: center;
+    border-radius: var(--border-radius-circle);
+}
+.shell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

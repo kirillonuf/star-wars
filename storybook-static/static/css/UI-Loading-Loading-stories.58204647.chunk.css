@@ -1,0 +1,19 @@
+.Loading_spinner__kSvJN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: var(--spacing-large) ;    
+    margin: var(--spacing-large) ;
+   
+}
+.Loading_dark__aKjM7{
+    text-shadow: var(--text-shadow-yellow);
+    box-shadow: var(--box-shadow-dark);
+}
+.Loading_light__5TGgG{
+    text-shadow: var(--text-shadow-blue);
+    box-shadow: var(--box-shadow-light);
+}
+
+/*# sourceMappingURL=UI-Loading-Loading-stories.58204647.chunk.css.map*/

@@ -1,0 +1,26 @@
+.photo {
+    position: relative;
+}
+
+.personImg {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--spacing-medium);
+    box-shadow: var(--box-shadow-yellow);
+}
+.favoriteIcon{
+    filter: drop-shadow(0 0 3px rgb(218, 192, 79));
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.favoriteIcon:hover{
+opacity: .7;
+}
+

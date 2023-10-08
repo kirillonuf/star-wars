@@ -1,0 +1,33 @@
+.theme {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.light_side,
+.dark_side,
+.green_side {
+    font-size: 36px;
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.light_side {
+    color: black;
+    background: white;
+}
+
+.dark_side {
+    color: rgb(201, 192, 192);
+    background: rgb(53, 52, 52);
+}
+
+.green_side {
+    color: rgb(122, 5, 5);
+    background: green;
+}

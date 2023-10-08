@@ -1,0 +1,49 @@
+:root {
+    --color-white:      #fff;
+    --color-yellow:     #ffff00;
+    --color-dark-gray:  #10100e; 
+    --color-light-gray: #dfe2df;
+    --color-blue:       #6a83fb;
+    --color-violet:     #ae72c2;
+
+    --font-family-main: sans-serif;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-header: 26px;
+    --font-bold: 600;
+
+    
+  --border-radius-circle: 50%;
+
+
+    --text-shadow-yellow: 
+    1px 1px 2px red,
+    0 0 1em var(--color-yellow),
+    0 0 0.2em var(--color-black);
+  --text-shadow-yellow-hover: 
+    1px 1px 2px red, 
+    0 0 1em var(--color-yellow), 
+    0 0 0.2em var(--color-white);
+  --text-shadow-blue: 
+    1px 1px 2px red, 
+    0 0 1em var(--color-blue), 
+    0 0 0.2em var(--color-black);
+
+
+    --box-shadow-dark:
+        1px 1px 2px red,
+        0em 0 3em var(--color-blue);
+
+        --box-shadow-light:
+        1px 1px 2px red,
+        0em 0 3em var(--color-yellow);    
+    
+    --transition: .4s;    
+
+}
+*,*::after,*::before{
+box-sizing: border-box;
+}
+img{
+  display: block;
+}

@@ -1,0 +1,32 @@
+.btn {
+    background-color: var(--theme-default-header);
+    color: var(--color-dark-gray);
+    box-shadow: var(--box-shadow-dark);
+    border-radius: 20px;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-header);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    min-width: 150px;
+    transition: var(--transition);
+}
+
+.btn:disabled {
+    opacity: .4;
+    cursor: auto;
+   
+}
+
+.dark:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.light:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-dark-gray);
+}
+.light {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: var(--box-shadow-light);
+}

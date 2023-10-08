@@ -1,0 +1,17 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: var(--spacing-large) ;    
+    margin: var(--spacing-large) ;
+   
+}
+.dark{
+    text-shadow: var(--text-shadow-yellow);
+    box-shadow: var(--box-shadow-dark);
+}
+.light{
+    text-shadow: var(--text-shadow-blue);
+    box-shadow: var(--box-shadow-light);
+}
