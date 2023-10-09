@@ -7,14 +7,17 @@ import HomePage from "@containers/HomePage";
 import styles from "./App.module.css";
 import { router } from "@routes/routingConfig";
 
+
+
 const App = () => {
   return (
+
     <div className="App">
-      <div className={styles.wrapper}>
-        <RouterProvider router={router}>
-          {/* <NavLink to="/" >Home</NavLink> */}
-        </RouterProvider>
-      </div>
+        <div className={styles.wrapper}>
+          <RouterProvider router={router}>
+            {/* <NavLink to="/" >Home</NavLink> */}
+          </RouterProvider>
+        </div>
     </div>
   );
 };
