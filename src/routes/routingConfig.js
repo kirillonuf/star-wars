@@ -12,7 +12,7 @@ import ErrorMessage from '@components/ErrorMessage';
 
 export const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/*',
         element: <Navigation />,
         index:true,
         errorElement: <NotFoundPage />,     
