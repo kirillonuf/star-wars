@@ -1,7 +1,7 @@
 {
   "name": "star_wars",
   "version": "0.1.0",
-  "homepage": "https//kirillonuf.github.io/star-wars",
+  "homepage": "https://kirillonuf.github.io/star-wars",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
@@ -20,7 +20,6 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-   
     "build": "react-app-rewired build",
     "eject": "react-app-rewired eject",
     "predeploy":"npm run build",
