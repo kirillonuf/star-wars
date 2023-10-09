@@ -14,12 +14,13 @@ export const router = createBrowserRouter([
     {
         path: '/',
         element: <Navigation />,
+        index:true,
         errorElement: <NotFoundPage />,     
         children: [
             {
                 path: '/',
                 element: <HomePage />,
-                index: true
+                // index: true
             },
             {
                 path: '/people/*',

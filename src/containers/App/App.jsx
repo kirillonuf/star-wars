@@ -6,19 +6,22 @@ import HomePage from "@containers/HomePage";
 
 import styles from "./App.module.css";
 import { router } from "@routes/routingConfig";
-
+import { REPO_NAME } from "../../constants/repo";
 
 
 const App = () => {
   return (
 
+          // <BrowserRouter  basename={`/${REPO_NAME}/`}> 
     <div className="App">
         <div className={styles.wrapper}>
           <RouterProvider router={router}>
+          
             {/* <NavLink to="/" >Home</NavLink> */}
-          </RouterProvider>
+       </RouterProvider>
         </div>
-    </div>
+    </div>  
+    //  </BrowserRouter> 
   );
 };
 

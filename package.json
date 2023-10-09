@@ -1,7 +1,7 @@
 {
   "name": "star-wars",
   "version": "0.1.0",
-  "homepage": "https://kirillonuf.github.io/",
+  "homepage": "https://kirillonuf.github.io/star-wars",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
