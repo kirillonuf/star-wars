@@ -12,15 +12,15 @@ import ErrorMessage from '@components/ErrorMessage';
 
 export const router = createBrowserRouter([
     {
-        path: '/*',
+        path: '/',
         element: <Navigation />,
-        index:true,
+        // index:true,
         errorElement: <NotFoundPage />,     
         children: [
             {
-                path: '/',
+                path: '/*',
                 element: <HomePage />,
-                // index: true
+                index: true
             },
             {
                 path: '/people/*',
