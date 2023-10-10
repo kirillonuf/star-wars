@@ -23,6 +23,10 @@ export const router = createBrowserRouter([
                 index: true
             },
             {
+                path: '/',
+                element: <HomePage />,
+            },
+            {
                 path: '/people/*',
                 element: <PeoplePage />,
             },
