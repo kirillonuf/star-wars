@@ -64,7 +64,7 @@
 
   /*THEMES*/
   --theme-dark-header: #cccc46;
-  --theme-light-header: #030b18;
+  --theme-light-header: #32353a;
   --theme-neitral-header: #488348;
   --theme-default-header: var(--theme-dark-header);
 
@@ -100,6 +100,7 @@ body {
 }
 
 .header_text {
+ margin: 0;
   line-height: 1.7;
   font-size: var(--font-size-header);
   text-shadow: 0 0 2px var(--color-black);

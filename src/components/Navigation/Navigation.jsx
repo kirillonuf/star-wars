@@ -74,6 +74,11 @@ const Navigation = () => {
     }
   }, [isTheme]);
 
+useEffect(()=>{
+  if(isBurger)document.body.style.overflow = "hidden";
+  else document.body.style.overflow = "auto";
+},[isBurger])
+
 const handlerBurger = (e)=>{
   const elem = document.querySelector('aside');
   if(e.target!==elem) e.target.onclick = setIsBurger(!isBurger);
@@ -82,8 +87,8 @@ const handlerBurger = (e)=>{
   return (
     <div className={styles.container}>
        {isBurger && (
-        <div className="burger__layer">
-          <aside onClick={handlerBurger} className={styles.burger}>
+        <div className="burger__layer" onClick={handlerBurger} >
+          <aside className={styles.burger}>
             <span className={styles.close}>X</span>
             <NavigationLink />
           </aside>
@@ -111,9 +116,9 @@ const handlerBurger = (e)=>{
       </div>
 
       <div className={styles.main}>
-       
         <Outlet />
       </div>
+      
     </div>
   );
 };

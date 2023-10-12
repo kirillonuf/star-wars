@@ -42,17 +42,17 @@ const ChooseSide = () => {
     {
       theme: THEME_DARK,
       img: imgDarkSide,
-      text: "THEME DARK",
+      text: "DARK",
     },
     {
       theme: THEME_LIGHT,
       img: imgLightSide,
-      text: "THEME LIGHT",
+      text: "LIGHT",
     },
     {
       theme: THEME_NEITRAL,
       img: imgNeitralSide,
-      text: "THEME NEITRAL",
+      text: "NEITRAL",
     },
   ];
   return (
