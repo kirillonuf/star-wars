@@ -64,7 +64,7 @@
 
   /*THEMES*/
   --theme-dark-header: #cccc46;
-  --theme-light-header: #01193d;
+  --theme-light-header: #030b18;
   --theme-neitral-header: #488348;
   --theme-default-header: var(--theme-dark-header);
 

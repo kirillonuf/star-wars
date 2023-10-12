@@ -29,3 +29,10 @@ opacity: .6;
     /* text-align: center; */
     line-height: 1.5;
 }
+
+@media screen and (max-width: 860px) {
+    .favoriteLink{
+        width: 40px;
+        height: 40px;
+    }
+}

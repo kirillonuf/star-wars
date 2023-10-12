@@ -1,21 +1,46 @@
+.container {
+    --nav_panel-height: 100px;
+}
 
-
-.logo{
-    height:  60px;
+.logo {
+    height: 60px;
     width: 60px;
     margin-right: var(--spacing-large);
     object-fit: cover;
     object-position: center center;
+    transition: 350ms;
+}
+.logo:hover {
+    scale: 1.2;
+    transition: 350ms;
 }
 
+.header {
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
 
-.favorites{
+.favorites {
     margin-left: 100px;
 }
 
+.main {
+    position: relative;
+    margin-top: calc(var(--nav_panel-height) + 30px);
+}
+
 .nav_panel {
-    height: 100px;
-    background-color: rgba(70, 67, 67, 0.479);
+    width: 100%;
+    max-width: var(--width-max);
+    height: var(--nav_panel-height);
+    background-color: rgb(70, 67, 67);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,7 +48,12 @@
     box-shadow: 1px 1px 2px red, 0em 0 3em rgb(250, 250, 0);
     margin: 10px;
     margin-bottom: var(--spacing-large);
+    background: url(./img/desktop.jpg);
 
+}
+
+.burger {
+    display: none;
 }
 
 .link {
@@ -42,21 +72,153 @@
     transition: var(--transition);
 }
 
-/* .link:hover {
-    text-shadow: var(--text-shadow-yellow-hover);
-}
-.link:target {
-    border: 2px solid var(--color-violet);
-    color: var(--color-violet);
-} */
-
 :global(.active) {
     border: 2px solid var(--color-violet);
     color: var(--color-violet);
 }
-#logo,#favorites {
-    border:none;
+
+#logo,
+#favorites {
+    border: none;
 }
+
 li {
     list-style-type: none;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    cursor: pointer;
+    color: var(--theme-default-header);
+    font-family: var(--font-family-main);
+    font-size: 28px;
+    font-weight: var(--font-bold);
+    text-shadow: var(--text-shadow-yellow);
+    transition: var(--transition);
+}
+
+.close:hover{
+   scale: 1.3;
+    transition: var(--transition);
+}
+
+@media screen and (max-width: 1100px) {
+    .favorites {
+        margin-left: 60px;
+    }
+
+    .link {
+        min-width: 50px;
+        margin: 0 8px;
+        padding: 5px 8px;
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .favorites {
+        margin-left: 30px;
+
+    }
+
+    .link {
+        min-width: 40px;
+        margin: 0 6px;
+        padding: 3px 6px;
+        font-size: 18px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin-right: var(--spacing-medium);
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .burger__menu_btn {
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        transition: 350ms;
+    }
+
+    .burger__menu_btn:hover {
+        scale: 1.3;
+        transition: 350ms;
+    }
+
+    .burger__menu_btn span {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: var(--theme-default-header);
+
+    }
+
+    .burger__menu_btn span:hover,
+    .burger__menu_btn span::before:hover,
+    .burger__menu_btn span::after:hover {
+        scale: 2;
+    }
+
+    .burger__menu_btn span::after {
+        display: block;
+        position: absolute;
+        content: '';
+        height: 3px;
+        background-color: var(--theme-default-header);
+        top: 8px;
+        width: 100%;
+    }
+
+    .burger__menu_btn span::before {
+        display: block;
+        position: absolute;
+        height: 3px;
+        background-color: var(--theme-default-header);
+        content: '';
+        top: -8px;
+        width: 100%;
+    }
+
+    .burger {
+        border-radius: 0 10px 10px 0;
+        position: fixed;
+        z-index: 2;
+        top: calc(var(--nav_panel-height) + 30px);
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        width: 80%;
+        height: calc(100vh - (var(--nav_panel-height) + 30px));
+        background-color: darkslateblue;
+        animation: burger linear 250ms ;
+    }
+}
+@keyframes burger {
+    0%{
+        width: 0;
+    }
+    25%{
+        width: 20%;
+    }
+    50%{
+        width: 40%;
+    }
+    75%{
+        width: 60%;
+    }
+    100%{
+        width: 80%;
+    }
 }

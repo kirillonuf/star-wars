@@ -11,17 +11,11 @@ import { REPO_NAME } from "../../constants/repo";
 
 const App = () => {
   return (
-
-          // <BrowserRouter  basename={`/${REPO_NAME}/`}> 
     <div className="App">
         <div className={styles.wrapper}>
-          <RouterProvider router={router}>
-          
-            {/* <NavLink to="/" >Home</NavLink> */}
-       </RouterProvider>
+          <RouterProvider router={router}>  </RouterProvider>
         </div>
     </div>  
-    //  </BrowserRouter> 
   );
 };
 

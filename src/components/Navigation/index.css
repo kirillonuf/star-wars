@@ -1,0 +1,18 @@
+.hide{
+    display: block;
+}
+@media screen and (max-width: 860px) {
+    .hide{
+        display: none;
+    }
+
+}
+.burger__layer{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.767);
+}
