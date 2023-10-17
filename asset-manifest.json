@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/star-wars/static/css/main.ff0d5f53.css",
-    "main.js": "/star-wars/static/js/main.f98b163b.js",
+    "main.js": "/star-wars/static/js/main.510aade4.js",
     "static/css/895.fa9e52de.chunk.css": "/star-wars/static/css/895.fa9e52de.chunk.css",
     "static/js/895.d5b59512.chunk.js": "/star-wars/static/js/895.d5b59512.chunk.js",
     "static/media/black-hole.mp4": "/star-wars/static/media/black-hole.32f9b388a4e49a458ecc.mp4",
@@ -21,12 +21,12 @@
     "static/media/cancel.svg": "/star-wars/static/media/cancel.f4fd2d0a43a24d660de2fa5672c9320a.svg",
     "index.html": "/star-wars/index.html",
     "main.ff0d5f53.css.map": "/star-wars/static/css/main.ff0d5f53.css.map",
-    "main.f98b163b.js.map": "/star-wars/static/js/main.f98b163b.js.map",
+    "main.510aade4.js.map": "/star-wars/static/js/main.510aade4.js.map",
     "895.fa9e52de.chunk.css.map": "/star-wars/static/css/895.fa9e52de.chunk.css.map",
     "895.d5b59512.chunk.js.map": "/star-wars/static/js/895.d5b59512.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff0d5f53.css",
-    "static/js/main.f98b163b.js"
+    "static/js/main.510aade4.js"
   ]
 }
