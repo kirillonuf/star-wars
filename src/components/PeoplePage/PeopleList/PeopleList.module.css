@@ -32,6 +32,7 @@ border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
 
 @media screen and (max-width: 920px){
     h2{
+        font-size: var(--font-size-main);
         white-space: nowrap;
         overflow: hidden;
         padding: 5px; /* Поля вокруг текста */

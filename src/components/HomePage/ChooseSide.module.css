@@ -50,11 +50,12 @@
     .wrapper{
         padding: 0;
         margin: 0;
-        height: 220px;
+        height: 200px;
         box-sizing: border-box;
     }    
     .container{
         box-sizing: border-box;
+        width: auto;
         min-height: auto;
        height: 100%;
        margin-bottom: 10px;
