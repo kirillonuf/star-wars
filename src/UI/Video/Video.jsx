@@ -10,7 +10,7 @@ const Video = ({ src, classes, playbackRate = 1.0 }) => {
     videoRef.current.playbackRate = playbackRate;
   }, [playbackRate]);
   return (
-    <div className={styles.shell}>
+    <iframe className={styles.shell}>
       <video
       width="240" height="240"
         controls={false}
@@ -23,7 +23,7 @@ const Video = ({ src, classes, playbackRate = 1.0 }) => {
       >
         <source src={src} type="video/mp4" />
       </video>
-    </div>
+    </iframe>
   );
 };
 
