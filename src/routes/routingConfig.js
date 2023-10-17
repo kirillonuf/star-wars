@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
                 element: <HomePage />,
             },
             {
-                path: '/people/*',
+                path: '/people/',
                 element: <PeoplePage />,
             },
             {

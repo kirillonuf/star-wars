@@ -3,7 +3,6 @@ import React from 'react';
 import { CircleLoader } from "react-spinners";
 import PropTypes from 'prop-types';
 
-
 const Loader = ({theme}) => {
   return (
    <>

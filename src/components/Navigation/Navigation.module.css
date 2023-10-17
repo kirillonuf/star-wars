@@ -1,6 +1,5 @@
 .container {
     --nav_panel-height: 100px;
-   
 }
 
 .logo {
@@ -11,6 +10,7 @@
     object-position: center center;
     transition: 350ms;
 }
+
 .logo:hover {
     scale: 1.2;
     transition: 350ms;

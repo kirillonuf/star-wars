@@ -1,7 +1,5 @@
 .btnSection{
     margin-top: var(--spacing-large);
-    /* position: fixed; */
-    /* z-index: 3; */
     display: flex;
     justify-content: space-evenly;
     padding: var(--spacing-medium) ;
