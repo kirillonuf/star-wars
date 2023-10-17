@@ -226,7 +226,7 @@ li {
 @media screen and (max-width: 860px) and (orientation: landscape) {
 
     .main {
-        margin-top: calc(var(--nav_panel-height) - 20px );
+        margin-top: calc(var(--nav_panel-height) - 30px );
     }
 }
 @keyframes burger {

@@ -13,7 +13,7 @@ const Button = ({
   classes
 }) => {
   return (
-    <div>
+    <div className={styles.section__btn}>
       <button onClick={onClick} className={cn(styles.btn, styles[theme], classes )} disabled={disabled}>
         {name}
       </button>
