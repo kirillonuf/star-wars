@@ -8,7 +8,7 @@ list-style-type: none;
 }
 
 .list__item{
-/* width: 180px; */
+width: 260px;
 margin: var(--spacing-medium);
 border-radius: var(--border-radius-small);
 background-color: var(--color-white);
@@ -22,8 +22,53 @@ cursor: pointer;
 
 .person__photo{
 width: 100%;
-height: 250px;
+/* height: 250px; */
 object-fit: cover;
 object-position: top center;
 border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+}
+
+
+
+@media screen and (max-width: 920px){
+    h2{
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px; /* Поля вокруг текста */
+        text-overflow: ellipsis; /* Добавляем многоточие */
+    }
+    .list__container{
+       flex-wrap: wrap;
+      column-count: 3;
+       gap: 20px 20px;
+        }
+    .list__item{
+        width: 160px;
+        height: 220px;
+        }
+    .person__photo{
+        width: 100%;
+        height:190px;
+       }
+   
+}
+
+@media screen and (max-width: 480px){
+    h2{
+        font-size:var(--font-size-main) ;
+       padding:0 5px;
+    }
+    .list__container{
+       gap: 15px 10px;
+          }
+    .list__item{
+        width: 120px;
+        height: 180px;
+   margin: 0;
+        }
+        .person__photo{
+            width: 100%;
+            height:140px;
+           }
+   
 }

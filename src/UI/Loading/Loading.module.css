@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transform: rotate(45deg);
     padding: var(--spacing-large) ;    
     margin: var(--spacing-large) ;
-   
+    
 }
 .dark{
     text-shadow: var(--text-shadow-yellow);
@@ -14,4 +14,19 @@
 .light{
     text-shadow: var(--text-shadow-blue);
     box-shadow: var(--box-shadow-light);
+}
+
+@media screen and (orientation: landscape) and (max-width: 860px){
+    .spinner{
+        transform: rotate(0deg);
+       margin-top: var(--spacing-large);
+    }
+}
+
+@media screen  and (max-width: 480px){
+    .spinner{
+       width: 70%;
+       transform: rotate(45deg);
+       margin: auto;
+    }
 }

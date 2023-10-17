@@ -30,9 +30,25 @@ text-shadow: var(--text-shadow-blue);
 .person_comment{
     color: var(--theme-default-header);
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:860px) {
     .list__container{
-      
+        gap: 10px 10px;
+      margin: 0;
+      padding: 0;
         column-count: 2;
+        }
+        .person__photo{
+            width: 35px;
+            height: 35px;
+            object-fit: cover;
+            object-position: center center;
+            border-radius: var(--spacing-ultra-small);
+            }
+        
+
+        p{
+            overflow: hidden;
+            padding: 5px;
+            text-overflow: ellipsis; 
         }
 }

@@ -49,19 +49,20 @@ const PeoplePage =({ setErrorApi }) => {
   };
 
   useEffect(() => {
+    
     getResource(currentUrlPeople);
+    window.scrollTo(0, 0)
   }, [currentUrlPeople]);
   return (
     <>
       {people ? (
         <>
+          <PeopleList people={people} />
           <PeopleNavigation 
             previousPage={previousPage}
             nextPage={nextPage}
             setPeople={setPeople}
             setCurrentUrlPeople={setCurrentUrlPeople} />
-
-          <PeopleList people={people} />
         </>
       ) : (
         <Loading theme={themeLoader.dark}/>

@@ -110,7 +110,7 @@ li {
        height: 70px;
     }
     .main {
-        margin-top: calc(var(--nav_panel-height) - 10px);
+        margin-top: calc(var(--nav_panel-height) );
     }
 }
 
@@ -131,6 +131,10 @@ li {
     .favorites {
         margin-left: 30px;
 
+    }
+
+    .main {
+        margin-top: calc(var(--nav_panel-height) + 30px);
     }
 
     .link {

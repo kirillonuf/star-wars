@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const Loader = ({theme}) => {
   return (
    <>
-    <CircleLoader color={theme} size={200} />
+    <CircleLoader color={theme} size={150} />
    </>
   );
 }

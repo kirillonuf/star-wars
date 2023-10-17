@@ -14,7 +14,7 @@ const PeopleList = ({ people }) => {
           <li className={styles.list__item} key={id}>
             <Link to={`/${SWAPI_PEOPLE}/${id}`}>
               <h2>{name}</h2>
-              <img className={styles.person_photo} src={img} alt={name} />
+              <img className={styles.person__photo} src={img} alt={name} />
             </Link>
           </li>
         );
