@@ -16,6 +16,7 @@ const Video = ({ src, classes, playbackRate = 1.0 }) => {
         ref={videoRef}
         loop
         autoPlay
+        playsinline
         muted
         className={cn(styles.video, classes)}
       >
