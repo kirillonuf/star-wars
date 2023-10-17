@@ -6,7 +6,7 @@
     border-radius: var(--border-radius-circle);
 }
 
-video::-webkit-media-controls {
+.video::-webkit-media-controls {
     display: none !important;
     -webkit-appearance: none;
 }
