@@ -95,7 +95,7 @@ const handlerBurger = (e)=>{
         </div>
           
         )}
-      <div className={styles.header}>
+      <header className={styles.header}>
         <nav className={styles.nav_panel}>
           <li>
             <NavLink id={styles.logo} className={styles.link} to="/">
@@ -113,11 +113,11 @@ const handlerBurger = (e)=>{
             </NavLink>
           </li>
         </nav>
-      </div>
+      </header>
 
-      <div className={styles.main}>
+      <main className={styles.main}>
         <Outlet />
-      </div>
+      </main>
       
     </div>
   );
