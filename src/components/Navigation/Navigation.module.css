@@ -237,7 +237,7 @@ li {
         justify-content:space-around;
         align-items: center;
         width: 80%;
-        height: calc(100vh - (var(--nav_panel-height) + 10px));
+        height: calc(100vh - (var(--nav_panel-height) - 10px));
         background-color: darkslateblue;
         animation: burger linear 250ms ;
     }
