@@ -12,6 +12,7 @@ const Video = ({ src, classes, playbackRate = 1.0 }) => {
   return (
     <div className={styles.shell}>
       <video
+      width="240" height="240"
         controls={false}
         ref={videoRef}
         loop
