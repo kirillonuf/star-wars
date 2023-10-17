@@ -17,3 +17,16 @@
     color: var(--theme-default-header);
     transition: color var(--transition);
   }
+
+  @media screen and (max-width: 640px) {
+    .text{
+        text-align: center;
+        text-shadow: 0 0 2px var(--color-white);
+        width:100%;
+    }
+}
+@media (orientation: landscape) and (max-width: 860px) {
+    .header_text {
+        font-size: var(--font-size-main);
+      }
+}

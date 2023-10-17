@@ -1,5 +1,5 @@
 .video{
-    
+    /* margin: auto; */
     max-width: 460px;
     width: 50%;
     text-align: center;
@@ -10,3 +10,29 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (orientation: landscape) and (max-width: 860px) {
+    .video{
+        max-width: 170px;
+    }
+}
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+  
+  /* Old shadow dom for play button */
+  
+  *::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+  
+  /* New shadow dom for play button */
+  
+  /* This one works! */
+  
+  *::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }

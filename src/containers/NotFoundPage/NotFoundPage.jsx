@@ -10,7 +10,6 @@ export default function NotFoundPage() {
   return (
     <div className={styles.error_page}>
        <h1>Oops!</h1>
-      {/* <h1>404</h1> */}
       <div className={styles.picture}>
         <div className={styles.planet}></div>
         <img className={styles.yoda} src={img} alt="404 Not Found" />
