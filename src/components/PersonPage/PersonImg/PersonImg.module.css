@@ -21,6 +21,17 @@
     cursor: pointer;
 }
 .favoriteIcon:hover{
-opacity: .7;
+    opacity: .7;
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+    .photo{
+        width: 140px;
+      
+    }
+    .personImg{
+        height: 100%;
+    }
+  
 }
 
