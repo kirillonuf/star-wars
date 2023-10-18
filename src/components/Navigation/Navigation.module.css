@@ -228,14 +228,13 @@ li {
     .main {
         margin-top: calc(var(--nav_panel-height) - 30px );
     }
-    .burger { 
+    /* .burger { 
         position: absolute;
-        top: 120px;
+        bottom: 0px;
         left: 0;
         width: 80%;
-        /* height: 100%; */
         height: calc(100vh - (var(--nav_panel-height) + 30px));
-    }
+    } */
     .link {
     margin: 0 8px;
     padding: 5px 8px;
