@@ -229,9 +229,12 @@ li {
         margin-top: calc(var(--nav_panel-height) - 30px );
     }
     .burger { 
-        bottom: 10px;
+        position: absolute;
+        top: 120px;
+        left: 0;
         width: 80%;
-        height: calc(100vh - (var(--nav_panel-height) + 30px));
+        height: 100%;
+        /* height: calc(100vh - (var(--nav_panel-height) + 30px)); */
     }
     .link {
     margin: 0 8px;
