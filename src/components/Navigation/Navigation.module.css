@@ -228,18 +228,10 @@ li {
     .main {
         margin-top: calc(var(--nav_panel-height) - 30px );
     }
-    .burger {
-       
-        top: calc(var(--nav_panel-height) + 10px);
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-around;
-        align-items: center;
+    .burger { 
+        bottom: 0;
         width: 80%;
-        height: calc(100vh - (var(--nav_panel-height) - 10px));
-        background-color: darkslateblue;
-        animation: burger linear 250ms ;
+        height: calc(100vh - (var(--nav_panel-height) + 30px));
     }
 }
 @keyframes burger {
