@@ -233,6 +233,12 @@ li {
         width: 80%;
         height: calc(100vh - (var(--nav_panel-height) + 30px));
     }
+    .link {
+    margin: 0 8px;
+    padding: 5px 8px;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-subheader);
+    }
 }
 @keyframes burger {
     0%{
