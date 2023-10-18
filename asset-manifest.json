@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/star-wars/static/css/main.4692aba8.css",
-    "main.js": "/star-wars/static/js/main.5c415ede.js",
-    "static/css/895.fa9e52de.chunk.css": "/star-wars/static/css/895.fa9e52de.chunk.css",
+    "main.css": "/star-wars/static/css/main.2490311e.css",
+    "main.js": "/star-wars/static/js/main.bb3c958c.js",
+    "static/css/895.797a8cb6.chunk.css": "/star-wars/static/css/895.797a8cb6.chunk.css",
     "static/js/895.d5b59512.chunk.js": "/star-wars/static/js/895.d5b59512.chunk.js",
     "static/media/black-hole-animation.gif": "/star-wars/static/media/black-hole-animation.780b315fb129081e7e91.gif",
     "static/media/black-hole.mp4": "/star-wars/static/media/black-hole.32f9b388a4e49a458ecc.mp4",
@@ -21,13 +21,13 @@
     "static/media/light-saber.png": "/star-wars/static/media/light-saber.313b59a91a2855e47f2c.png",
     "static/media/cancel.svg": "/star-wars/static/media/cancel.f4fd2d0a43a24d660de2fa5672c9320a.svg",
     "index.html": "/star-wars/index.html",
-    "main.4692aba8.css.map": "/star-wars/static/css/main.4692aba8.css.map",
-    "main.5c415ede.js.map": "/star-wars/static/js/main.5c415ede.js.map",
-    "895.fa9e52de.chunk.css.map": "/star-wars/static/css/895.fa9e52de.chunk.css.map",
+    "main.2490311e.css.map": "/star-wars/static/css/main.2490311e.css.map",
+    "main.bb3c958c.js.map": "/star-wars/static/js/main.bb3c958c.js.map",
+    "895.797a8cb6.chunk.css.map": "/star-wars/static/css/895.797a8cb6.chunk.css.map",
     "895.d5b59512.chunk.js.map": "/star-wars/static/js/895.d5b59512.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4692aba8.css",
-    "static/js/main.5c415ede.js"
+    "static/css/main.2490311e.css",
+    "static/js/main.bb3c958c.js"
   ]
 }
