@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/star-wars/static/css/main.cfa64c13.css",
+    "main.css": "/star-wars/static/css/main.c6c0a1a5.css",
     "main.js": "/star-wars/static/js/main.5c415ede.js",
     "static/css/895.fa9e52de.chunk.css": "/star-wars/static/css/895.fa9e52de.chunk.css",
     "static/js/895.d5b59512.chunk.js": "/star-wars/static/js/895.d5b59512.chunk.js",
@@ -21,13 +21,13 @@
     "static/media/light-saber.png": "/star-wars/static/media/light-saber.313b59a91a2855e47f2c.png",
     "static/media/cancel.svg": "/star-wars/static/media/cancel.f4fd2d0a43a24d660de2fa5672c9320a.svg",
     "index.html": "/star-wars/index.html",
-    "main.cfa64c13.css.map": "/star-wars/static/css/main.cfa64c13.css.map",
+    "main.c6c0a1a5.css.map": "/star-wars/static/css/main.c6c0a1a5.css.map",
     "main.5c415ede.js.map": "/star-wars/static/js/main.5c415ede.js.map",
     "895.fa9e52de.chunk.css.map": "/star-wars/static/css/895.fa9e52de.chunk.css.map",
     "895.d5b59512.chunk.js.map": "/star-wars/static/js/895.d5b59512.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfa64c13.css",
+    "static/css/main.c6c0a1a5.css",
     "static/js/main.5c415ede.js"
   ]
 }
